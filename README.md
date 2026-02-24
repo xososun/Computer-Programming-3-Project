@@ -1,5 +1,10 @@
 # Computer-Programming-3-Project
-Candelaria-Pesquisa-Querijero-Santos
+
+List of members:
+- Candelaria, Zoeh Blythe Gunther (Leader)
+- Pesquisa, Jericho
+- Querijero, Elijah Bradley
+- Santos, Xyl
 
 Group 6 of CSS123P, section BM17
 
