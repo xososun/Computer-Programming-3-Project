@@ -10,13 +10,13 @@ import javax.swing.JComboBox;
 import javax.swing.DefaultComboBoxModel;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
-/*
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-*/
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ItemListener;
 import java.awt.event.ItemEvent;
@@ -140,6 +140,7 @@ public class LoginDashboard {
         
         if (role.equals("Librarian") && empID.isEmpty()) {
         	JOptionPane.showMessageDialog(frmLibraryManagementSystem, "Please enter employee ID.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return;
         }
 
         if (username.isEmpty()) {
@@ -190,4 +191,5 @@ public class LoginDashboard {
             JOptionPane.showMessageDialog(frmLibraryManagementSystem, "Database Connection Error: " + ex.getMessage(), "DB Error", JOptionPane.ERROR_MESSAGE);
         }
     }
+
 }
